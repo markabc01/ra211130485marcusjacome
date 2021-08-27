@@ -1,0 +1,192 @@
+
+html{ margin: 0px; padding: 0px; }
+
+body{
+  font-family:arial ;
+  background:#fff;
+ /* text-align: center;  */
+
+
+}
+p {
+text-align: center;
+color: red;
+font-size: 26px;
+border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+#logo{
+ width: auto;
+  margin: 0px;
+    padding: 0px;
+    text-align: center;
+    image-orientation: center;
+}
+
+ #menu{
+  /*border: px solid #ccc;*/
+  width: auto;
+  text-align: center;
+  border-radius:5px;
+  background-color:#0077b6;
+   margin: 0px;
+   padding: 5px;
+}
+
+ #menu ul{
+  list-style: none;
+  height: 30px;
+}
+
+ #menu ul li{
+display: inline;
+  float:center;
+  padding:0px 40px 0px 0;
+}
+ #menu ul a{
+  text-decoration: none;
+  color: #7f5539;
+  font-size: 25px;
+  background-color:#faedcd;
+  border-radius: 5px;
+  padding: 5px 20px 5px 15px ;
+  margin:  5px 15px 5px 15px ;
+  clear: both;
+}
+
+#main{
+
+  border: px solid red;
+   margin: 10px;
+   width: auto;
+   height: auto;
+   border-radius:5px;
+    clear: both;
+}
+
+#imagemPaginaPrincipal{
+
+  border: px solid red;
+  padding: 20px;
+  font-size: 16px;
+  float: left;
+
+}
+#imagemPaginaPrincipal .imgPequena{
+    border: 1px solid #ccc;
+    background-color: #FFF9EB;
+  border-radius: 10px;
+  width: auto;
+  height: 370px;
+ float: left;
+  padding: 10px;
+  margin: 10px;
+}
+.imgProduto{
+   border: px solid #ccc;
+  width: auto;
+  height: auto;
+   float: left;
+}
+#imagemPaginaPrincipal .comprar{
+  border: 1px solid #ccc;
+  background: #faedcd;
+  color: black;
+  margin: 0px 40px 0px 40px;
+  padding: 10px;
+  border-radius: 10px;
+ float: center;
+ clear: both;
+ text-decoration: none;
+
+}
+#imagemPaginaPrincipal .destaque{
+  border: 1px solid #ccc;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto{
+  border: 1px solid #ccc;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin: 5px 5px 5px 15%;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto img{
+  border: 1px solid #ccc;
+  width: 600px;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+
+
+#formulario{
+  margin: 20px;
+
+  border: px solid blue;
+  padding: 30px;
+  float: center;
+  font-size: 15px;
+  text-align: justify;
+}
+#formulario form{
+  margin: 0px;
+}
+#formulario form input{
+  border-radius: 5px;
+  border: px solid blue;
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  width: 650px;
+}
+#formulario form textarea{
+  border: px solid blue;
+  padding: 10px;
+  margin: 10px;
+  width: 630px;
+  height: 200px;
+}
+#formulario form button{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  float: center;
+
+}
+
+#localizacao{
+  border: px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  image-orientation: center;
+
+
+}
+
+#quemsomos{
+  border: px solid #ccc;
+  padding: 10px;
+  float: right;
+  font-size: 15px;
+  text-align: justify;
+
+}
+
+#footer{
+  text-align: center;
+  background:#0077b6;
+  border: 1px solid #ccc;
+  margin: 15px;
+  width: auto;
+  border-radius:5px;
+  float:center;
+  clear: both;
+}
